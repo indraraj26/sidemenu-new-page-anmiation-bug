@@ -1,0 +1,15 @@
+@mixin commonBackgroundAndColor($color: var(--ion-color-white)) {
+  --color: $color;
+  --background: var(--ion-color-black);
+}
+
+.header-toolbar {
+  --padding-start: 1rem;
+  --padding-end: 2rem;
+  border-bottom: 0.1rem solid #ccc;
+  @include commonBackgroundAndColor;
+}
+
+ion-content {
+  @include commonBackgroundAndColor;
+}

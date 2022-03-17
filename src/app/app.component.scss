@@ -1,0 +1,33 @@
+@mixin commonBackgroundAndColor($color: var(--ion-color-white)) {
+  --color: $color;
+  --background: #292929;
+}
+
+.menu-toolbar {
+  --padding-start: 2rem;
+  ion-title {
+    --color: var(--ion-color-white);
+  }
+}
+
+ion-content,
+ion-item,
+ion-icon {
+  @include commonBackgroundAndColor;
+}
+
+.menu-item {
+  --inner-padding-start: 1rem;
+}
+
+ion-item {
+  --inner-padding-top: 2rem;
+  --inner-padding-bottom: 2rem;
+  // font-size: 1.6rem;
+  font-size: 1.9rem;
+  --border-color: #ccc;
+}
+
+.menu-overlay{
+  --background: rgba(var(--ion-color-black-rgb, 0, 0, 0,) 0.7);
+}

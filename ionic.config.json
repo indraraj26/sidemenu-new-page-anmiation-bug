@@ -1,0 +1,7 @@
+{
+  "name": "KDS APP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

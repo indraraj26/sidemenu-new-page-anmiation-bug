@@ -1,0 +1,6 @@
+{
+	"appId": "com.juice.kds",
+	"appName": "KDS",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
